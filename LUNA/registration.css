@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway:ital,wght@0,100..900;1,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Red Hat Display", sans-serif;
+}
+.container{
+    width: 400px;
+    height: 400px;
+    box-shadow: 0 8px 16px grey;
+    margin-left: 450px;
+    margin-top: 100px;
+}
+.container h2{
+    color: darkcyan;
+    margin-left: 20px;
+    padding-top: 20px;
+    letter-spacing: 1.5px;
+}
+form .form-control{
+    margin-left: 20px;
+    padding: 30px 10px;
+}
+form .form-control input{
+    width: 80%;
+    height: 40px;
+
+}
+form .btn{
+    margin-top: 20px;
+    width: 80%;
+    height: 20px;
+    background-color: transparent;
+    color: darkcyan;
+    font-weight: 700;
+    border-width: 1px;
+    border-color: grey;
+    border-radius: 5px;
+    transition: .3s ease-in-out;
+}
+form .btn:hover{
+    background-color: darkcyan;
+    color: white;
+}
